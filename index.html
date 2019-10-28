@@ -9,18 +9,17 @@
     <link href="css/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
 </head>
-
 <body>
     <div class="jumbotron text-center">
-            <h1>You wanna find out your akan name ?</h1>
-            <p>Take your time please..</p>
-            <br>
-            <p> Now this is what I want you to do:</p>
-            <p>Enter your birthday through the form below.</p>
-            <p>Still on the form, choose your gender.</p>
-            <p>Click the Akan Name button to get your Akan name</p>
+        <background-image src="images/akan3.jpg" opacity: 1>
+        <h1><span style="color:white">You wanna find out your akan name ?</span></h1>
+        <p><span style="color:white">Take your time please..</span></p><br>
+        <p><span style="color:white"> Now this is what I want you to do:</span></p>
+        <p><span style="color:white">Enter your birthday through the form below.</span></p>
+        <p><span style="color:white">Still on the form, choose your gender.</span></p>
+        <p><span style="color:white">Click the Akan Name button to get your Akan name</span></p>
     </div>
-    <<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
@@ -63,21 +62,10 @@
                 </div>
                 <div class="form">
                     <form>
-
-                        <label>Enter the Century you were Born:</label> <br>
-                        <input type="number" id="century" name="century" placeholder="Enter your century of birth"
-                            required><br>
-
-                        <label>Enter the year:</label> <br>
-                        <input type="number" id="year" name="year" placeholder="Enter your year of birth" required><br>
-
-                        <label>Enter the Month:</label> <br>
-                        <input type="number" id="month" name="month" placeholder="Enter your month of birth"
-                            required><br>
-
-                        <label>Enter the date:</label> <br>
-                        <input type="number" id="date" name="date" placeholder="Enter your date of birth" required><br>
-
+                        <label for="century">Enter the Century you were Born:</label><br><input type="number" id="century" name="century" placeholder="Enter your century of birth" required><br>
+                        <label for="year">Enter the year:</label><br><input type="number" id="year" name="year" placeholder="Enter your year of birth" required><br>
+                        <label for="month">Enter the Month:</label><br><input type="number" id="month" name="month" placeholder="Enter your month of birth" required><br>
+                        <label for="date">Enter the date:</label><br><input type="number" id="date" name="date" placeholder="Enter your date of birth" required><br>
                         <label><em>Choose your GENDER:</em></label> <br>
                         <input type="radio" name="gender" id="male" value="Male" required>Male<br>
                         <input type="radio" name="gender" id="female" value="Female" required>Female<br>
@@ -85,25 +73,16 @@
 
                         <!-- <a href="#" class="btn">Submit</a> -->
 
-                        <button type="button" name="button" class="btn btn-primary mb-2" onclick="getInput()">AKan Name.</button>
+                        <button type="button" name="button" class="btn btn-primary mb-2" onclick="checkDays()">AKan Name</button>
                         <input type="reset" name="reset" value ="reset">
                         
                         <div class="card-footer">
                             
                         </div>
+                    </form>
                 </div>
             </div>
         </div>
-
-        </div>
-        </div>
-
-        </form>
-
-        </div>
-
-        <script src="js/script.js" type="text/javascript"></script>
-
+    </div>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
-
-</html>

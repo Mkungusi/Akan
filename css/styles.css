@@ -2,12 +2,14 @@
 .card-body{
 
     text-decoration-color: white;
-    background-color: greenyellow;
+    background-color: red;
+
 }
 .jumbotron{
 
     background-size: cover;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
+    background-image: url("images/akan3.jpg");
     
 }
 .label{
