@@ -1,12 +1,11 @@
 # Akan Names.
-- https://brian-m-code.github.io/akan-kan/
 
 
 ## Author:
 - Brian Mutuma N.
 
 ## link to live site
-
+-index.html
 
 ### Description
 This website-project contains a form that facilitates one to get or know their akan name by inputing their birth calendar into the form and submitting it.
@@ -32,14 +31,10 @@ This website-project contains a form that facilitates one to get or know their a
 - Css
 
 ## How to set up 
-- git clone https://github.com/Brian-M-Code/akan-kan.git
+- git clone https://github.com/Mkungusi/Akan.git
 - extract the file
 - cd to the akan directory
 - open the index.html on your favourite browser
-
-
-# Incase of inquiry contact me via..
-- Email: mutuma.brian@yahoo.com
 
 # License
 [The MIT license](license.md)
