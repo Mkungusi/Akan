@@ -2,7 +2,7 @@
 
 
 ## Author:
-- Brian Mutuma N.
+- Mkungusi.
 
 ## link to live site
 -index.html
