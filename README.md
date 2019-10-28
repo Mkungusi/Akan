@@ -38,4 +38,3 @@ This website-project contains a form that facilitates one to get or know their a
 
 # License
 [The MIT license](license.md)
-Copyright (c) Brian-M-Code @2019
